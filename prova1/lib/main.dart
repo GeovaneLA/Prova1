@@ -33,7 +33,7 @@ class _CalculatorState extends State<Calculator> {
             color: txtcolor,
           ),
         ),
-        shape: CircleBorder(),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
         color: btncolor,
         padding: EdgeInsets.all(20),
       ),
